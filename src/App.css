@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  font-family: "IBM Plex Sana Thai Looped", sans-serif;
+  /* color: white; */
+  /* background: linear-gradient(to bottom, #000000 30%, #423f42 70%); */
+  text-shadow: 1px 0px 2px #8dc4f0;
+  height: 100vh;
+  /* overflow: hidden; */
+}

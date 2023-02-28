@@ -1,0 +1,23 @@
+.main-area {
+  margin-left: 14rem;
+  background-image: linear-gradient(to  right, rgb(16, 15, 15),
+  rgb(0, 0, 0));
+  height:calc(100vh - 5rem);
+  position: relative;
+  
+  top: 0.1px;
+  
+  overflow: hidden;
+}
+.m-area{
+    overflow:scroll;
+    scroll-behavior: smooth;
+    
+    height: 100vh;
+}
+.main-area img {
+  width: 100vw;
+  height: 60vh;
+ 
+}
+

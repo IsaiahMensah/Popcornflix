@@ -1,0 +1,39 @@
+.movies{
+    display: flex;
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+}
+.m-wrapper{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
+}
+.m-wrapper .title{
+    margin-top: 0.1rem;
+}
+.m-wrapper .title h1{
+    color: white;
+    font-weight: 900;
+
+}
+.movies-card{
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+    display: flex;
+}
+.movies-card .card{
+    height: 50vh;
+    width: 18vw;
+    background-color:white;
+    /* display: flex; */
+}
+.card-body {
+    margin-top: 18rem;
+}
+.card-title{
+    color:black;
+    font-weight: 900;
+    font-size: 20px;
+}

@@ -26,8 +26,7 @@ const Movies = () => {
           <h1>All Movies</h1>
         </div>
         <div className="movies-card">
-          <Card/>
-          
+          <Card />
         </div>
       </div>
     </div>

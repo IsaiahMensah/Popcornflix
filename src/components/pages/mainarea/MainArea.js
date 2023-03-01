@@ -1,18 +1,17 @@
-import React from 'react'
-import "./MainArea.css"
-import img2 from "../../../images/img2.jpg"
+import React from "react";
+import "./MainArea.css";
+import img2 from "../../../images/img2.jpg";
 import img3 from "../../../images/img3.jpg";
 import img1 from "../../../images/img1.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import Trending from '../../trending/Trending';
-import Movies from '../../All movies/Movies';
-import black from "../../../images/black.webp"
-import Ra from "../../../images/ra.jpeg"
-import xane from"../../../images/xane.jpg"
+import Trending from "../../trending/Trending";
+import Movies from "../../All movies/Movies";
+import black from "../../../images/black.webp";
+import Ra from "../../../images/ra.jpeg";
+import xane from "../../../images/xane.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-
 
 const MainArea = () => {
   return (
@@ -54,7 +53,7 @@ const MainArea = () => {
                   Some representative placeholder content for the first slide.
                 </p>
                 <a href="">
-                  <button className='btn btn-primary'>Watch</button>
+                  <button className="btn btn-primary">Watch</button>
                 </a>
               </div>
             </div>
@@ -66,7 +65,7 @@ const MainArea = () => {
                   Some representative placeholder content for the second slide.
                 </p>
                 <a href="">
-                  <button className='btn btn-primary'>Watch</button>
+                  <button className="btn btn-primary">Watch</button>
                 </a>
               </div>
             </div>
@@ -78,7 +77,7 @@ const MainArea = () => {
                   Some representative placeholder content for the third slide.
                 </p>
                 <a href="">
-                  <button className='btn btn-primary'>Watch</button>
+                  <button className="btn btn-primary">Watch</button>
                 </a>
               </div>
             </div>
@@ -108,6 +107,6 @@ const MainArea = () => {
       </div>
     </div>
   );
-}
+};
 
-export default MainArea
+export default MainArea;

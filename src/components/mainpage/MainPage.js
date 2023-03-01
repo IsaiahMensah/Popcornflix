@@ -12,21 +12,15 @@ import IMageSlider from "../slider/ImageSlider"
 // import Category from "../pages/Category";
 // import Trendingpage from "../pages/Trendingpage";
 // import Settings from "../pages/Settings";
+import{Outlet } from 'react-router-dom'
 
 const Mainpage = () => {
   return (
     <div className='mainpage'>
         <Navbar/>
         <Sidebar/>
-        <MainArea/>
-        {/* <IMageSlider/> */}
-       {/* <Home/>
-       <Movies/>
-       <Series/>
-       <NewRelease/>
-       <Category/>
-       <Trendingpage/>
-       <Settings/> */}
+        {/* <MainArea/> */}
+       <Outlet/>
     </div>
   )
 }

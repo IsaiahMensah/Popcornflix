@@ -1,0 +1,30 @@
+.main-area {
+  margin-left: 14rem;
+  background-image: linear-gradient(to  right, rgb(9, 35, 112),
+  rgb(0, 0, 0));
+  height:calc(100vh - 5rem);
+  position: relative;
+  top: 0.1px;
+ 
+  
+}
+.heading{
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.heading h1{
+    color: white;
+    font-size: 30px;
+}
+.movies{
+    overflow:scroll;
+    scroll-behavior: smooth;
+    /* width: 100%; */
+   
+    justify-content: center;
+    height: 100vh;
+}
+.c-wrapper{
+    height: 100vh;
+    /* margin-bottom: 14rem; */
+}

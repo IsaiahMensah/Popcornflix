@@ -1,9 +1,10 @@
 import React from 'react'
+import "../../App.css";
 
 const NewRelease = () => {
   return (
-    <div>NewRelease
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error maiores omnis reiciendis nisi quasi numquam voluptatibus velit mollitia voluptas similique architecto sunt cumque aspernatur ipsum, quos officia beatae repellendus veniam.
+    <div className='main-area'>
+      
     </div>
   )
 }
